@@ -46,6 +46,9 @@ public class main {
 			System.out.println("Digite o segundo numero: ");
 			n2 = sc.nextInt();
 			resultado = n1 / n2;
+			if ( n2 == 0) {
+				System.out.println("Nao eh possivel dividir por 0");
+			}
 			System.out.printf("O resultado eh: %d ",resultado);
 			break;
 		case 5:
@@ -66,5 +69,6 @@ public class main {
 				System.out.println("Valor invalido");
 				break;
 		}
+		sc.close();
 	}
 }
