@@ -63,7 +63,7 @@ Programa encerrado
 
 * **Java**
 * **Eclipse IDE** (ou qualquer IDE compatível)
-* **JDK 17+**
+* **JDK 25**
 
 ---
 
