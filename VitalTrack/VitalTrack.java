@@ -50,7 +50,6 @@ public class VitalTrack {
                     
                     int FAF;
                     System.out.println("Determine seu Fator de Atividade Física (FAF)");
-                    FAF = sc.nextInt();
                     System.out.println("1 - Sedentário (Pouco ou nenhum esforco fisico)" );
                     System.out.println("2 - Levemente Ativo (exercício leve 1-3x/semana)");
                     System.out.println("3 - Moderadamente Ativo (exercício moderado 3-5x/semana)");
@@ -116,4 +115,5 @@ public class VitalTrack {
         }
         sc.close();
     }
+
 }
