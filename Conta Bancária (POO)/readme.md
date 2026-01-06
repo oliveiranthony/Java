@@ -83,11 +83,12 @@ java Program
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por **Anthony Oliveira**
+Projeto desenvolvido por **Anthony Oliveira Carvalho**
 Estudante de Engenharia de Computação | Iniciante em Desenvolvimento Java
 
-📎 LinkedIn: *adicione aqui*
-📎 GitHub: *adicione aqui*
+📎 LinkedIn: *www.linkedin.com/in/anthony-oliveira-carvalho*
+
+📎 GitHub: *https://github.com/oliveiranthony*
 
 ---
 
