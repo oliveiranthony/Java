@@ -45,7 +45,8 @@ Este repositório é voltado para **fins educacionais**. Sugestões, feedbacks e
 
 ## ✍️ Autor
 
-**Anthony Oliveira**
+**Anthony Oliveira Carvalho**
+
 Estudante de Engenharia de Computação | Iniciando na área de desenvolvimento
 
 🔗 GitHub: `oliveiranthony`
