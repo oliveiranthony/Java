@@ -1,0 +1,22 @@
+package application;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class program {
+
+	public static void main(String[] args) {
+
+		LocalDate date03  = LocalDate.parse("2026-01-31");
+		LocalDateTime date04 = LocalDateTime.parse("2026-01-31T18:00:26");
+		Instant date05 = Instant.parse("2026-01-31T18:00:26Z");
+		
+		// https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/time/format/DateTimeFormatter.html
+		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		System.out.println("date 03 = " + date03);
+	}
+
+}

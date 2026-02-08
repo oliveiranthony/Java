@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;data-hora local&apos; to &apos;data-hora&apos;&#x0D;&#x0A;- Original element: &apos;data-hora local&apos;&#x0D;&#x0A;- Renamed element: &apos;data-hora local&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;data-hora local&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=data-hora local" name="data-hora" references="true" stamp="1769966314320" version="1.0"/>
+</session>

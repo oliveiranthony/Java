@@ -1,0 +1,19 @@
+package application;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+public class program {
+	public static void main(String[] args) {
+		LocalDate date03  = LocalDate.parse("2026-01-31");
+		LocalDateTime date04 = LocalDateTime.parse("2026-01-31T18:00:26");
+		Instant date05 = Instant.parse("2026-01-31T18:00:26Z");
+		
+		//ZoneId.getAvailableZoneIds()
+		for(String s : ZoneId.getAvailableZoneIds()) {
+			System.out.println(s);
+		}
+	}
+}

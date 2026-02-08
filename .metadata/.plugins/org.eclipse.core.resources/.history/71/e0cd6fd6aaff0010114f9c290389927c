@@ -1,0 +1,38 @@
+package application;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
+public class Program {
+
+	public static void main(String[] args) {
+		LocalDate date03  = LocalDate.parse("2026-01-31");
+		LocalDateTime date04 = LocalDateTime.parse("2026-01-31T18:00:26");
+		Instant date05 = Instant.parse("2026-01-31T18:00:26Z");
+		
+		LocalDate pastWeekLocalDate = date03.minusDays(7);
+		LocalDate nextWeekLocalDate = date03.plusDays(7);
+		System.out.println("pastWeekLocalDate = " + pastWeekLocalDate);
+		System.out.println("nextWeekLocalDate = " + nextWeekLocalDate);
+
+		LocalDateTime pastWeekLocalDateTime = date04.minusDays(7);
+		LocalDateTime nextWeekLocalDateTime = date04.plusDays(7);
+		System.out.println("pastWeekLocalDateTime = " + pastWeekLocalDateTime);
+		System.out.println("nextWeekLocalDateTime = " + nextWeekLocalDateTime);
+		
+		Instant pastWeekInstant = date05.minus(7, ChronoUnit.DAYS);
+		Instant nextWeekInstant = date05.plus(7, ChronoUnit.DAYS);
+		System.out.println("pastWeekInstant = " + pastWeekInstant);
+		System.out.println("nextWeekInstant = " + nextWeekInstant);
+
+		Duration t1 = Duration.between(pastWeekLocalDateTime, nextWeekLocalDateTime);
+		Duration t2 = Duration.between(pastWeekLocalDate, date04);
+		System.out.println("t1 = " + t1.toDays() + " dias");
+		System.out.println("t2 = " + t2.toDays() + " dias");
+
+	}
+
+}
