@@ -72,6 +72,7 @@ Além disso, o uso da **API de Data e Hora do Java** permitiu compreender como t
 ## 👨‍💻 Autor
 
 Desenvolvido por **Anthony Oliveira Carvalho**
+
 Atividade acadêmica – Programação em JAVA
 
 ---
