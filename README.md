@@ -23,7 +23,7 @@ Os projetos aqui presentes fazem parte da minha jornada de estudos na área de *
 
 * **Java**
 * **JDK 25**
-* **Eclipse IDE / VS Code**
+* **IntelliJ IDEA / Spring Tools Eclipse IDE / VS Code**
 * **Git & GitHub**
 
 ---
